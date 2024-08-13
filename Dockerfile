@@ -1,12 +1,12 @@
-FROM node:14
+# FROM node:14
 
-WORKDIR /usr/src/app
+# WORKDIR /usr/src/app
 
-COPY package*.json ./
+# COPY package*.json ./
 
-RUN npm install
+# RUN npm install
 
-COPY . .
+# COPY src/ .  
 
-EXPOSE 8080
-CMD ["node", "app.js"]
+# EXPOSE 8080
+# CMD ["node", "app.js"]
